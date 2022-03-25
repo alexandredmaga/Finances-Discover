@@ -221,7 +221,7 @@ const Form = {
 const App = {
     init() {
         Transaction.all.forEach((transaction, index) => {
-            DOM.addTransaction(transaction)
+            DOM.addTransaction(transaction, index)
 
         })
 
